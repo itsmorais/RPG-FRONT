@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:3022/api",
+    baseURL: "http://20.206.203.136:3022/api",
 });
 
 export const getGuildas = async (guildSize: number) => {
